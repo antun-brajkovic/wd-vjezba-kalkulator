@@ -1,0 +1,31 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input, select {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #888888;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+input {
+    padding: 0.4rem;
+    margin: 0 0.7rem;
+    width: max(auto, 5rem);
+}
+
+select {
+    padding: 0;
+    width: auto;
+}
+
+#res {
+    font-weight: bold;
+    color: green;
+}
+
+#res.red {
+    color: red;
+}
